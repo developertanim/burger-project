@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Alfa Slab One', serif;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Banner Section Start */
+.banner-section{
+    width: 100%;
+    background: url(../pix/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+.b-t1{
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 700;
+    margin-right: 27px;
+}
+.nav-item{
+    margin-right: 25px;
+}
+.nav-link{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 4px;
+}
+.banner{
+    width: 100%;
+    height: 85vh;
+}
+.b-text{
+    height: 85vh;
+    vertical-align: middle;
+    display: table-cell;
+}
+.b-text h1{
+    font-size: 105px;
+    text-transform: uppercase;
+    color: #42200B;
+    text-shadow: 3px 3px #FEE9BB;
+    margin-top: 10px;
+    
+}
+.b-text h2{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #42200B;
+    text-shadow: 3px 3px #FEE9BB;
+    margin-top: 10px;
+    
+}
+.b-text span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    border: 2px dashed #784C1C;
+    padding: 4px 15px;
+    color: #583212;
+}
+.red-text{
+    height: 80vh;
+    vertical-align: bottom;
+    display: table-cell;
+    color: #ffffff;
+}
+.red-text h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 75px;
+    margin-bottom: -8px;
+    margin-left: -22px;
+    
+}
+.red-text sup{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    top: 0px;
+}
+.red-text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    letter-spacing: 10px;
+    margin-bottom: -14px;
+    margin-left: -23px;
+}
+/*  Banner Section End */
+
+/*  Todays Feature Start */
+.todays-feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.todays-feature .tf-img{
+    position: relative;
+    
+}
+.todays-feature .tf-text{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ffffff;
+    
+}
+.todays-feature .tf-text p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+.todays-feature .tf-text h3{
+    font-size: 35px;
+    margin-top: -20px;
+}
+.todays-feature  .tf-pic{
+    margin-top: 31px;
+}
+/*  Todays Feature End */
+
+/*  Tasty Section Start */
+.tasty-section{
+    width: 99%;
+    padding: 10px 0px;
+}
+.tasty-section .ts-text{
+    color: #3d2514;
+}
+.tasty-section .ts-text span{
+    background-color: #ffc045;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 5px 20px;
+}
+.tasty-section .ts-text h1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.tasty-section .ts-text p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.ts-img-text{
+    width: 100%;
+    padding: 50px 0px;
+    color: #3d2514;
+}
+.ts-img-text h3{
+    margin-top: 30px;
+}
+.ts-img-text p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.ts-img-text .cus-butt{
+    border-radius: 0;
+    padding: 10px 25px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #bf2121 !important;
+}
+/*  Tasty Section End */
+
+/* Slider Section Start */
+.slider-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.cus-shadow{
+    position: relative;
+    padding: 20px 20px 20px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 10px 20px 35px;
+    color: #717171;
+}
+.slider-section h3{
+    font-size: 33px;
+}
+.slider-section h2{
+    font-size: 40px;
+    font-family: 'Alfa Slab One', serif;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.slider-section p{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 25px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 13px;
+    height: 13px;
+    margin: 5px 4px;
+    background: #dcdcdc;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+/* Slider Section End */
+
+/* Form Section Start */
+.form-section{
+    width: 100%;
+    background: url(../pix/banner1.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.form-section .f-text{
+    margin-top: 40px;
+    color: #3d2514;
+    text-transform: uppercase;
+    
+}
+.form-section .f-text h3{
+    font-size: 30px;
+}
+.form-section .f-text h2{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 50px;
+}
+.form-section .cus-butt{
+    border-radius: 5px;
+    padding: 16.5px 102px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #bf2121 !important;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+.form-section .f1{
+    margin-top: 75px;
+    padding-left: 170px;
+}
+.form-section .f2{
+    margin-top: 75px;
+    padding-right: 170px;
+}
+.form-control {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* Form Section End */
+
+/* Footer Section Start */
+.fb-part{
+    margin: 30px -55px;
+    padding: 75px 50px;
+    width: 110%;
+    background: url(../pix/banner2.png) center center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: #ffffff;
+}
+.fb-part img{
+    margin-bottom: 47px;
+}
+.fb-part p{
+    font-size: 16px;
+}
+.fb-i{
+    margin-top: 155px;
+}
+.footer-section h4.big{
+    line-height: 40px;
+}
+.fb-i i{
+    padding-right: 20px;
+}
+.footer-section .fa-map-marker{
+    padding-right: 30px;
+}
+.fb-si-cn{
+    margin-top: 125px;
+}
+.fb-si{
+    margin-left: 174px;
+}
+.fb-si ul li{
+	display: inline-block;
+	list-style: none;
+}
+.fb-si ul li a{
+	margin-right: 15px;
+	color: #444348;
+	font-weight: 600;
+}
+.fb-si ul li a:hover{
+	color: #008ed6;
+}
+.fb-si ul li a i{
+    height: 25px;
+    width: 25px;
+    margin-right: -5px;
+    font-size: 15px;
+    background-color: #dcdcdc;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+/* Footer Section End */
